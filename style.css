@@ -112,7 +112,7 @@ body {
         width: 100%;
     }
 
-    .d-1-img img .small{
+    .d-1-img.small{
         width: 80%;
         font-size: 12px;
     }
@@ -132,6 +132,8 @@ body {
 
     .d1-3{
         height: 50px;
+        display: flex;
+        align-items: center;
     }
 
     .numero {
@@ -160,4 +162,21 @@ body {
         font-size: 14px;
         border-top: 2px solid #000 ;
         padding-left: 10px;
+    }
+    
+    .aviso--grande{
+        font-size: 40px;
+        font-weight: bold;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .aviso-gigante{
+        font-size: 70px;
+        font-weight: bold;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
